@@ -1,0 +1,17 @@
+.scrollpagemusic{
+
+}
+
+.anomaly-logo{
+    height: 60vh;
+    background-image: linear-gradient(to right bottom, rgba(30, 30, 29, 0.7), rgba(255, 0, 0, 0.7)), url("../images/cell.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.capricon-video{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}

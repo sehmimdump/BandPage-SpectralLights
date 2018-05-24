@@ -1,0 +1,88 @@
+
+  .spectral-logo{
+    position: absolute;
+    height: 125px;
+    width: 838px;
+    top: 8px;
+    left: 7px;
+
+  }
+  .nav-body-fluid{
+    height: 135px;
+  }
+  .nav-logo{
+      font-size: 30px;
+      animation: jello 1s;
+  }
+  .logo-wubble{
+      margin-top: 40px;
+      margin-left: -10px;
+      margin-right: 0px;
+  }
+  .logo-wubble:hover{
+    animation: jello .5s;
+  }
+
+
+@media only screen and (max-width: 767px) {
+    .spectral-logo{
+        position: absolute;
+        height: 99px;
+        width: 739px;
+        left: 0px;
+        top: -310px;
+    }
+    .nav-logo{
+        font-size: 0px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .spectral-logo{
+        position: absolute;
+        height: 99px;
+        width: 470px;
+        left: 0px;
+        top: -310px;
+    }
+    .nav-logo{
+        font-size: 0px;
+    }
+}
+
+
+@keyframes jello {
+    from,
+    11.1%,
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    22.2% {
+      transform: skewX(-12.5deg) skewY(-12.5deg);
+    }
+  
+    33.3% {
+      transform: skewX(6.25deg) skewY(6.25deg);
+    }
+  
+    44.4% {
+      transform: skewX(-3.125deg) skewY(-3.125deg);
+    }
+  
+    55.5% {
+      transform: skewX(1.5625deg) skewY(1.5625deg);
+    }
+  
+    66.6% {
+      transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    }
+  
+    77.7% {
+      transform: skewX(0.390625deg) skewY(0.390625deg);
+    }
+  
+    88.8% {
+      transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    }
+  }
