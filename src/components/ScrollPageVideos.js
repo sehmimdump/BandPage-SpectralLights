@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/scrollpagevideos.css';
-import ReactPlayer from 'react-player';
 import './css/startpage.css';
 
 class ScrollPageVideos extends React.Component {
@@ -17,8 +16,11 @@ class ScrollPageVideos extends React.Component {
             /// VIDEOS ///
         </div>
 
-        <div>
-            <ReactPlayer url='https://www.youtube.com/watch?v=VDwFMmOY1Pk' />
+        <div className="videos" >
+            <object className="videoEach" data="https://www.youtube.com/embed/KN3ZrgeLm2A" />
+            <object className="videoEach" data="https://www.youtube.com/embed/gqNiIcwv1q0" />
+            <object className="videoEach" data="https://www.youtube.com/embed/8xMFr_4mYIU" />
+            <object className="videoEach" data="https://www.youtube.com/embed/IhcSxAYqw8w" />
         </div>
     </div>
     );

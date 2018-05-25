@@ -66,10 +66,10 @@
         font-size: 0px;
     }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 470px) {
   .spectral-logo{
     position: absolute;
-    height: 163px;
+    height: 363px;
     width: 604px;
     left: 0px;
     top: -24px;
@@ -82,7 +82,7 @@
   }
   .capricon-video{
     position: absolute;
-    width: 156px;
+    width: 530px;
     z-index: -1;
 }
 }
@@ -123,3 +123,5 @@
       transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     }
   }
+
+  
