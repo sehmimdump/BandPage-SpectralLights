@@ -6,7 +6,8 @@ const StartPage = () =>
   (
     <div className="body-start">
       <NavbarStart />
-      <video className="capricon-video" src={require('./images/capricorn.mp4')} autoplay="true" muted>
+      <br/>
+      <video className="capricon-video" src={require('./images/capricorn.mp4')} autoPlay="true" muted loop="true">
       </video>
     </div>
 );

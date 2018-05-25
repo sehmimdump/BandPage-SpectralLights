@@ -4,8 +4,19 @@ import './css/startpage.css';
 const ScrollPageMusic = () => 
   (
     <div className="scrollpagemusic">
-        <div>
-            <img className=".anomaly-logo" src={require('./images/cell.jpg')} alt={'Logo'} ></img>
+
+        {/* ADD A NAVBAR */}
+             
+        <div className="anomaly-logo">
+          <div className="Header" >
+            ALBUMS // SINGLES
+          </div>
+          <div className="albums">
+            <img className="orbit" src={require('./images/orbit.jpg')} alt={''} />
+            <img className="orbit" src={require('./images/watcher.PNG')} alt={''}  />
+            <img className="orbit" src={require('./images/anomaly.jpg')} alt={''}  />
+            <img className="orbit" src={require('./images/swift.jpg')} alt={''}  />
+          </div>
         </div>
     </div>
 );

@@ -1,17 +1,47 @@
 .scrollpagemusic{
-
+    position: relative;
+    top: 570px;
+    height: 100vh;
 }
 
 .anomaly-logo{
-    height: 60vh;
-    background-image: linear-gradient(to right bottom, rgba(30, 30, 29, 0.7), rgba(255, 0, 0, 0.7)), url("../images/cell.png");
+
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(30, 30, 29, 0.7), rgba(255, 0, 0, 0.7));
     background-position: center;
     background-repeat: no-repeat;
     z-index: 2;
+
 }
 
 .capricon-video{
     position: absolute;
-    top: 0px;
+    top: 38px;
     z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+    .capricon-video{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 38px;
+        z-index: -1;
+    }
+  }
+.Header{
+    padding: 5px;
+    margin: .2em;
+    margin-bottom: 0em;
+    text-align: center;
+    color: azure;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 16px;
+}
+
+.orbit{
+    display: inline-block;
+    width: 292px;
+    margin: 1em;
 }

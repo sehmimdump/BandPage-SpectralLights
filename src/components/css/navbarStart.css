@@ -4,7 +4,7 @@
     height: 125px;
     width: 838px;
     top: 8px;
-    left: 7px;
+    left: 232px;
 
   }
   .nav-body-fluid{
@@ -30,11 +30,28 @@
         height: 99px;
         width: 739px;
         left: 0px;
-        top: -310px;
+        top: 10px;
     }
     .nav-logo{
-        font-size: 0px;
+        margin-top: 100px;
+        font-size: 50px;
     }
+    .logo-wubble:hover{
+      animation: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .spectral-logo{
+      position: absolute;
+      height: 99px;
+      width: 600px;
+      left: -5px;
+      top: 7px;
+  }
+  .nav-logo{
+      font-size: 0px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
