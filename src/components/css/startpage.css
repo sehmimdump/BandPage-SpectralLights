@@ -29,6 +29,8 @@
         z-index: -1;
     }
   }
+
+
 .Header{
     padding: 5px;
     margin: .2em;
@@ -45,3 +47,24 @@
     width: 292px;
     margin: 1em;
 }
+
+@media only screen and (max-width: 640px) {
+    .orbit{
+        display: inline-block;
+        width: 143px;
+        margin: .11em;
+    }
+  }
+  @media only screen and (max-width: 469px) {
+    .anomaly-logo{
+        position: relative;
+        top: -600px;
+        height: 100vh;
+        background-image: linear-gradient(to right bottom, rgba(30, 30, 29, 0.7), rgba(255, 0, 0, 0.7));
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 2;
+    
+    }
+    
+  }

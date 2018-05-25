@@ -17,6 +17,8 @@ const ScrollPageMusic = () =>
             <img className="orbit" src={require('./images/anomaly.jpg')} alt={''}  />
             <img className="orbit" src={require('./images/swift.jpg')} alt={''}  />
           </div>
+
+            {/* ADD MUSIC */}
         </div>
     </div>
 );
