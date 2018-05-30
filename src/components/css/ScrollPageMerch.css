@@ -1,0 +1,17 @@
+.merchBody{
+    position: relative;
+    bottom: -559px;
+    background-image: linear-gradient(to right bottom, rgba(30, 255, 0, 0.7), rgba(150, 11, 11, 0.845));
+}
+
+.merchEach{
+    display: inline-block;
+    width: 360px;
+    margin: 1em;
+}
+
+.btn-primary{
+    right: 371px;
+    position: relative;
+    top: 190px;
+}

@@ -88,6 +88,55 @@
 }
 
 
+
+.hamburger{
+  position: relative;
+  top: 306px;
+  left: 40%;
+}
+
+.stickOne{
+  width: 200px;
+  height: 10px;
+  background-color: black;
+}
+
+.stickTwo{
+  width: 200px;
+  height: 10px;
+  background-color: red;
+  margin-top: 40px;
+}
+
+.stickMovedOne{
+  width: 200px;
+  height: 10px;
+  background-color: red;
+  animation: rotateRight 1s forwards;
+}
+
+.stickMovedTwo{
+  margin-top: 40px;
+  width: 200px;
+  height: 10px;
+  background-color: red;
+  animation: rotateLeft 1s forwards;
+}
+
+
+@keyframes rotateRight {
+  to {
+    transform: rotate(40deg) translateX(40px);
+    
+  }
+}
+@keyframes rotateLeft {
+  to {
+    transform: rotate(-40deg) translateX(40px);
+  }
+}
+
+
 @keyframes jello {
     from,
     11.1%,

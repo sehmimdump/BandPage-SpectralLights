@@ -40,6 +40,7 @@
     font-size: 55px;
     font-weight: 700;
     letter-spacing: 16px;
+    background-image: linear-gradient(to right bottom, rgba(255, 8, 8, 0.2), rgba(255, 89, 0, 0.5));
 }
 
 .orbit{

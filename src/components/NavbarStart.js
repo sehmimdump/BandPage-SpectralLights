@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/navbarStart.css';
+import $ from 'jquery';
 
 import FaFacebookOfficial from 'react-icons/lib/fa/facebook-official';
 import FaInstagram from 'react-icons/lib/fa/instagram';
@@ -13,6 +14,11 @@ const navIconsLinks = {
     twitter: "https://twitter.com/sehmim"
 }
 
+const func = () => $(".hamburger").click(function(){
+    $(".stickOne").toggleClass("stickMovedOne");
+    $(".stickTwo").toggleClass("stickMovedTwo");
+});
+
 
 const NavbarStart = () => (
     <div className="nav-body">
@@ -25,6 +31,10 @@ const NavbarStart = () => (
                         <li><a className="logo-wubble" href={navIconsLinks.bandcamp}><FaMusic className="nav-logo" /></a></li>
                         <li><a className="logo-wubble" href={navIconsLinks.twitter}><FaTwitterSquare className="nav-logo" /></a></li>
                 </ul>
+            </div>
+            <div class="hamburger" onClick={func}>
+                <div class="stickOne" >  </div>
+                <div class="stickTwo" >  </div>
             </div>
         </nav>
     </div>

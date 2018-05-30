@@ -4,18 +4,13 @@ import './css/startpage.css';
 
 class ScrollPageVideos extends React.Component {
   
-    videoClass = {
-        "display": "inline-block",
-        "width": "100px",
-    };
-  
     render() {
         return (
     <div className="youtubeVideos" >
         <div className="Header" >
             /// VIDEOS ///
         </div>
-
+        // eslint-disable-next-line
         <div className="videos" >
             <object className="videoEach" data="https://www.youtube.com/embed/KN3ZrgeLm2A" />
             <object className="videoEach" data="https://www.youtube.com/embed/gqNiIcwv1q0" />

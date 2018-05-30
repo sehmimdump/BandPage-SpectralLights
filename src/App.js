@@ -3,6 +3,7 @@ import './App.css';
 import StartPage from "./components/StartPage";
 import ScrollPageMusic from './components/ScrollPageMusic';
 import ScrollPageVideos from './components/ScrollPageVideos';
+import ScrollPageMerch from './components/ScrollPageMerch';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <StartPage />
         <ScrollPageMusic />
         <ScrollPageVideos />
+        <ScrollPageMerch />
       </div>
     );
   }
