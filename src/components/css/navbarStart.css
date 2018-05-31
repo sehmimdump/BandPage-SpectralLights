@@ -32,6 +32,7 @@
         left: 0px;
         top: 10px;
     }
+
     .nav-logo{
         margin-top: 100px;
         font-size: 50px;
@@ -91,34 +92,34 @@
 
 .hamburger{
   position: relative;
-  top: 306px;
-  left: 40%;
+  top: -100px;
+  left: 88%;
 }
 
 .stickOne{
-  width: 200px;
-  height: 10px;
+  width: 92px;
+  height: 11px;
   background-color: black;
 }
 
 .stickTwo{
-  width: 200px;
-  height: 10px;
+  width: 92px;
+  height: 11px;
   background-color: red;
-  margin-top: 40px;
+  margin-top: 14px;
 }
 
 .stickMovedOne{
-  width: 200px;
-  height: 10px;
+  width: 92px;
+  height: 11px;
   background-color: red;
   animation: rotateRight 1s forwards;
 }
 
 .stickMovedTwo{
-  margin-top: 40px;
-  width: 200px;
-  height: 10px;
+  margin-top: 14px;
+  width: 92px;
+  height: 11px;
   background-color: red;
   animation: rotateLeft 1s forwards;
 }
@@ -126,13 +127,13 @@
 
 @keyframes rotateRight {
   to {
-    transform: rotate(40deg) translateX(40px);
+    transform: rotate(40deg) translateX(20px);
     
   }
 }
 @keyframes rotateLeft {
   to {
-    transform: rotate(-40deg) translateX(40px);
+    transform: rotate(-40deg) translateX(20px);
   }
 }
 
@@ -173,4 +174,6 @@
     }
   }
 
-  
+  .albums{
+    margin-bottom: 15px;
+  }

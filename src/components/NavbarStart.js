@@ -21,6 +21,7 @@ const func = () => $(".hamburger").click(function(){
 
 
 const NavbarStart = () => (
+    <div>
     <div className="nav-body">
         <nav className="navbar navbar-inverse">
             <div className="container-fluid nav-body-fluid">
@@ -32,11 +33,12 @@ const NavbarStart = () => (
                         <li><a className="logo-wubble" href={navIconsLinks.twitter}><FaTwitterSquare className="nav-logo" /></a></li>
                 </ul>
             </div>
-            <div class="hamburger" onClick={func}>
-                <div class="stickOne" >  </div>
-                <div class="stickTwo" >  </div>
-            </div>
         </nav>
+    </div>
+        <div className="hamburger" onClick={func}>
+            <div className="stickOne" >  </div>
+            <div className="stickTwo" >  </div>
+        </div>
     </div>
 );
 

@@ -9,6 +9,7 @@
     "react-icons": "^2.2.7",
     "react-player": "^1.6.1",
     "react-scripts": "1.1.4",
+    "react-spotify-player": "^1.0.4",
     "react-youtube": "^7.6.0"
   },
   "scripts": {

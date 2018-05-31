@@ -12,11 +12,8 @@ class ScrollPageMerch extends React.Component {
 
             <div className="merchWrapper">
                 <img className="merchEach" src={require('./images/merch1.jpg')} alt={''} />
-                    <button className="btn btn-primary"> BUY </button>
                 <img className="merchEach" src={require('./images/merch1.jpg')} alt={''}  />
-                    <button className="btn btn-primary"> BUY </button>
                 <img className="merchEach" src={require('./images/merch1.jpg')} alt={''}  />
-                    <button className="btn btn-primary"> BUY </button>
           </div>
     </div>
     );

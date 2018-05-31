@@ -4,6 +4,7 @@ import StartPage from "./components/StartPage";
 import ScrollPageMusic from './components/ScrollPageMusic';
 import ScrollPageVideos from './components/ScrollPageVideos';
 import ScrollPageMerch from './components/ScrollPageMerch';
+import FooterNavbar from './components/FooterNavbar';
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <ScrollPageMusic />
         <ScrollPageVideos />
         <ScrollPageMerch />
+        <FooterNavbar />
       </div>
     );
   }
