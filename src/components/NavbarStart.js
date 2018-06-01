@@ -1,6 +1,8 @@
 import React from 'react';
 import './css/navbarStart.css';
 import $ from 'jquery';
+import 'react-bootstrap/lib';
+
 
 import FaFacebookOfficial from 'react-icons/lib/fa/facebook-official';
 import FaInstagram from 'react-icons/lib/fa/instagram';
@@ -22,23 +24,24 @@ const func = () => $(".hamburger").click(function(){
 
 const NavbarStart = () => (
     <div>
-    <div className="nav-body">
-        <nav className="navbar navbar-inverse">
-            <div className="container-fluid nav-body-fluid">
-                <ul className="nav navbar-nav">
-                        <li><img className="spectral-logo" src={require('./images/logo.png')} alt={ 'logo' } /></li>
-                        <li><a className="logo-wubble" href={navIconsLinks.facebook}><FaFacebookOfficial className="nav-logo" /></a></li>
-                        <li><a className="logo-wubble" href={navIconsLinks.instagram}><FaInstagram className="nav-logo" /></a></li>
-                        <li><a className="logo-wubble" href={navIconsLinks.bandcamp}><FaMusic className="nav-logo" /></a></li>
-                        <li><a className="logo-wubble" href={navIconsLinks.twitter}><FaTwitterSquare className="nav-logo" /></a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+        <div className="nav-body">
+            <nav className="navbar navbar-inverse">
+                <div className="container-fluid nav-body-fluid">
+                    <ul className="nav navbar-nav">
+                            <li><img className="spectral-logo" src={require('./images/logo.png')} alt={ 'logo' } /></li>
+                            <li><a className="logo-wubble" href={navIconsLinks.facebook}><FaFacebookOfficial className="nav-logo" /></a></li>
+                            <li><a className="logo-wubble" href={navIconsLinks.instagram}><FaInstagram className="nav-logo" /></a></li>
+                            <li><a className="logo-wubble" href={navIconsLinks.bandcamp}><FaMusic className="nav-logo" /></a></li>
+                            <li><a className="logo-wubble" href={navIconsLinks.twitter}><FaTwitterSquare className="nav-logo" /></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <div className="hamburger" onClick={func}>
             <div className="stickOne" >  </div>
             <div className="stickTwo" >  </div>
         </div>
+
     </div>
 );
 

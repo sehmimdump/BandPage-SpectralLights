@@ -21,10 +21,18 @@ const ScrollPageMusic = () =>
             ALBUMS // SINGLES
           </div>
           <div className="albums">
-            <img className="orbit" src={require('./images/orbit.jpg')} alt={''} />
-            <img className="orbit" src={require('./images/watcher.PNG')} alt={''}  />
-            <img className="orbit" src={require('./images/anomaly.jpg')} alt={''}  />
-            <img className="orbit" src={require('./images/swift.jpg')} alt={''}  />
+            <a href="https://spectralights.bandcamp.com/album/orbit" >
+              <img className="orbit" src={require('./images/orbit.jpg')} alt={''} />
+            </a>
+            <a href="https://soundcloud.com/spectralofficialband/the-watcher" >
+              <img className="orbit" src={require('./images/watcher.PNG')} alt={''}  />
+            </a>
+            <a href="https://spectralights.bandcamp.com/album/anomaly" >
+              <img className="orbit" src={require('./images/anomaly.jpg')} alt={''}  />
+            </a>
+            <a href="https://spectralights.bandcamp.com/track/swift" >
+              <img className="orbit" src={require('./images/swift.jpg')} alt={''}  />
+            </a>
           </div>
             <SpotifyPlayer
               uri="spotify:album:6nc39PYmv29MKBAcvTVIgc"
