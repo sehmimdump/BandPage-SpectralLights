@@ -21,6 +21,11 @@ const func = () => $(".hamburger").click(function(){
     $(".stickTwo").toggleClass("stickMovedTwo");
 });
 
+const scrollToView = (myElement) => {
+    $('html, body').animate({
+        scrollTop: ($(myElement).offset().top)
+    },500);
+}
 
 const NavbarStart = () => (
     <div>
@@ -37,10 +42,18 @@ const NavbarStart = () => (
                 </div>
             </nav>
         </div>
-        <div className="hamburger" onClick={func}>
-            <div className="stickOne" >  </div>
-            <div className="stickTwo" >  </div>
-        </div>
+
+        <div class="dropdown">
+            <div className="hamburger" onClick={func}>
+                <div className="stickOne" ></div>
+                <div className="stickTwo" ></div>
+            </div>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div> 
 
     </div>
 );
